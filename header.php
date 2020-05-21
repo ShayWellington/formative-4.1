@@ -8,7 +8,7 @@
   </head>
   <body class="body">
     <header>
-      <img src="/images/logo-placeholder.png" alt="Logo">
+      <img src="<?php echo get_template_directory_uri(); ?> /images/logo-placeholder.png" alt="Logo">
       <div class="container">
           <?php
           wp_nav_menu(
@@ -20,5 +20,7 @@
             );
            ?>
      </div>
-
+     <div class ="container text-info my-5">
+       <?php get_search_form(); ?>
+     </div>
     </header>

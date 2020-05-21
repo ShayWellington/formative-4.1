@@ -5,6 +5,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 header {
     background-color: #cd986c;
     position: fixed;
@@ -31,10 +32,10 @@ header li {
 }
 
 header li a {
-    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     text-decoration: none;
-    text-transform: uppercase;
+
 }
 
 .img-container {
@@ -67,6 +68,10 @@ header li a {
 .includes {
   margin: 30px;
   padding: 30px;
+}
+
+.page-wrap {
+  min-height: 100%;
 }
 
 h1 {

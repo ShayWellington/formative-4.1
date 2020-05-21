@@ -12,8 +12,6 @@ wp_nav_menu(
 ?>
 </div>
 
-copyright@2020
-
 </footer>
 
 <?php wp_footer(); ?>
